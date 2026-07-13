@@ -10,8 +10,6 @@ API REST simples (FastAPI + SQLAlchemy) para controle de uma biblioteca: usuári
 4. `uv run uvicorn main:app --reload`
 5. Acesse http://127.0.0.1:8000/docs
 
-O passo a passo completo (instalação de tudo) está na conversa com o Claude que gerou este projeto.
-
 ## Estrutura
 
 - `database.py` — conexão com o banco
