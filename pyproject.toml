@@ -1,0 +1,12 @@
+[project]
+name = "biblioteca-api"
+version = "0.1.0"
+description = "API REST de uma biblioteca (CRUD) feita com FastAPI + SQLAlchemy"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "bcrypt",
+]
